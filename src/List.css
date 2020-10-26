@@ -1,0 +1,23 @@
+.todo-style{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+.todo-style .fa-times{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    background-color: #6a99e0;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin: 0 15px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+.todo-style .fa-times:hover{
+    background-color: red;
+}

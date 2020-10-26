@@ -1,11 +1,21 @@
+import React from 'react';
 import './App.css';
+import ToDoList from './ToDoList';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <h1>Hello!</h1>
+    <>
+    <div className='container-div'>
+      <div className='main-div'>
+        <div className='inner-div'>
+          <marquee>ToDo List App</marquee>
+        </div>
+        <br/>
+        <ToDoList />
+      </div>
     </div>
-  );
+    </>
+  )
 }
 
-export default App;
+export default App
